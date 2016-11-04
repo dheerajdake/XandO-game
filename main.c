@@ -50,6 +50,7 @@ int main()
 	for(f=0; f<ROWS; f++)
 		free(gameBoard[f]);
 	free(gameBoard);
+	gameBoard = NULL;
 	return 0;
 }
 
